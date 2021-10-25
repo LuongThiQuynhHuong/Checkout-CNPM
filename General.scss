@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial';
+  }
+
+#logo {
+    display: flex;
+    padding-left: 1.5%;
+    padding-top: 1.5%;
+    #logoimg{
+        height: 17px;
+
+    }
+    #logotext{
+        color: #A38E8E;
+    }
+}
+#progressbar{
+    padding-top: 0.5%;
+    padding-left: 20%;
+    height: 10%;
+
+    #progressname{
+        display: flex;
+        #text2{
+            flex-basis: 48%;
+            text-align: center;
+        }
+    }
+    #progress{
+        display: flex;
+        align-items: center;
+        .completecircle{
+            width: 30px;
+            height: 30px;
+            border: solid;
+            border-color: #becac1;
+            border-bottom-left-radius: 100%;
+            border-bottom-right-radius: 100%;
+            border-top-right-radius: 100%;
+            border-top-left-radius: 100%;
+            background-color: #becac1;
+            color: black;
+            font-size: 19pt;
+            text-align: center;
+        }
+        .incompletecircle{
+            width: 30px;
+            height: 30px;
+            border: solid;
+            border-color: #becac1;
+            border-bottom-left-radius: 100%;
+            border-bottom-right-radius: 100%;
+            border-top-right-radius: 100%;
+            border-top-left-radius: 100%;
+            color: black;
+            font-size: 19pt;
+            text-align: center;
+        }
+        .incompleterectangle{
+            width: 300px;
+            height: 5px;
+            border-style: solid;
+            border-color: #becac1;
+        }
+        .completerectangle{
+            width: 300px;
+            height: 5px;
+            border-style: solid;
+            border-color: #becac1;
+            background-color: #becac1;
+        }
+    }
+}
+button {    
+    height: 50px;
+    width: 135px;
+    border: none;
+    background-color: #becac1;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 100%;
+}
+#billinfo{
+    height: 500px;
+}
+#addressinfo{
+    padding-left: 30%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+#navigationbar{
+    display: flex;
+    padding-left: 20%;
+    padding-bottom: 2%;
+    #leftbtn{
+        flex-basis: 60%;
+    }
+    #rightbtn{
+        padding-right: 20%;
+    }
+}
+#content {
+    //border:solid;
+    //height: 500px;
+    display: flex;
+    padding-top: 5%;
+    padding-left: 13%;
+    padding-bottom: 10%;
+    #information{
+        width: 40%;
+        padding-left: 5%;
+        //border:solid;
+    }
+    #typepayment{
+        width: 50%;
+        //border:solid;
+    }
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+  }
+  
+  td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+  }
+  tr:nth-child(odd) {
+    background-color: #dddddd;
+  }
