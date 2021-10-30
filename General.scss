@@ -4,20 +4,23 @@
     font-family: 'Arial';
   }
 
-#logo {
+
+#header {
+    background-color: #14d47b;
     display: flex;
     padding-left: 1.5%;
-    padding-top: 1.5%;
+    padding-top: 2%;
+    padding-bottom: 1.5%;
     #logoimg{
         height: 17px;
-
     }
     #logotext{
-        color: #A38E8E;
+        color: black;
+        text-align: center;
     }
 }
 #progressbar{
-    padding-top: 0.5%;
+    padding-top: 3%;
     padding-left: 20%;
     height: 10%;
 
@@ -35,12 +38,12 @@
             width: 30px;
             height: 30px;
             border: solid;
-            border-color: #becac1;
+            border-color: #0f805e;
             border-bottom-left-radius: 100%;
             border-bottom-right-radius: 100%;
             border-top-right-radius: 100%;
             border-top-left-radius: 100%;
-            background-color: #becac1;
+            background-color: #14d47b;
             color: black;
             font-size: 19pt;
             text-align: center;
@@ -49,7 +52,7 @@
             width: 30px;
             height: 30px;
             border: solid;
-            border-color: #becac1;
+            border-color: #0f805e;
             border-bottom-left-radius: 100%;
             border-bottom-right-radius: 100%;
             border-top-right-radius: 100%;
@@ -62,22 +65,22 @@
             width: 300px;
             height: 5px;
             border-style: solid;
-            border-color: #becac1;
+            border-color: #0f805e;
         }
         .completerectangle{
             width: 300px;
             height: 5px;
             border-style: solid;
-            border-color: #becac1;
-            background-color: #becac1;
+            border-color: #0f805e;
+            background-color: #14d47b;
         }
     }
 }
 button {    
     height: 50px;
-    width: 135px;
-    border: none;
-    background-color: #becac1;
+    width: 140px;
+    border-color: #0f805e;
+    background-color: #14d47b;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -111,8 +114,7 @@ button {
     }
 }
 #content {
-    //border:solid;
-    //height: 500px;
+
     display: flex;
     padding-top: 5%;
     padding-left: 13%;
@@ -120,11 +122,9 @@ button {
     #information{
         width: 40%;
         padding-left: 5%;
-        //border:solid;
     }
     #typepayment{
         width: 50%;
-        //border:solid;
     }
 }
 table {
@@ -134,14 +134,18 @@ table {
   }
   
   td {
-    border: 1px solid #dddddd;
+    border: 1px solid #0f805e;
     text-align: left;
     padding: 8px;
   }
   th {
-    border: 1px solid #dddddd;
+    border: 1px solid #0f805e;
     padding: 8px;
   }
   tr:nth-child(odd) {
-    background-color: #dddddd;
+    background-color: #14d47b;
   }
+footer {
+    background-color: #14d47b;
+    padding: 1.5%;
+}
